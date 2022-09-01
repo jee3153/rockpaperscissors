@@ -13,6 +13,8 @@ function App() {
     "draw": "https://c.tenor.com/AdBjSG07MmEAAAAd/again-huh.gif"
   }
 
+  DUMMY_SECRET = "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";
+
   useEffect(() => {
    if (winner) {
     updateImgSrc();
